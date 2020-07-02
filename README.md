@@ -10,8 +10,9 @@ To call the module you will need to provide your `allowlists.drand.sh`
 username and password, as well as the network (`env`), for example `testnet`.
 
 ```terraform
-module "allowlist" {
-  source = "github.com/drand/terraform-drand-allowlists"
+module "allowlists" {
+  source  = "drand/allowlists/drand"
+  version = "0.0.1"
   username = "yourusername"
   password = "yourpassword"
   env = "yourenv"
