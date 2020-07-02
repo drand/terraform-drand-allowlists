@@ -12,7 +12,7 @@ username and password, as well as the network (`env`), for example `testnet`.
 ```terraform
 module "allowlists" {
   source  = "drand/allowlists/drand"
-  version = "0.0.1"
+  version = "0.0.2"
   username = "yourusername"
   password = "yourpassword"
   env = "yourenv"
